@@ -1,1 +1,21 @@
-.DS_Store
+# .gitignore
+/coverage
+/build
+
+# Ignore environment variables
+.env
+
+# Ignore IDE specific files
+.idea/
+*.log
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak.*
+*.tmp
+*.tmp.*
+*.DS_Store
